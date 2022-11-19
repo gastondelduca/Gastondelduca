@@ -1,83 +1,128 @@
- class="cajas" <!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="paginas/">
-    <link rel="stylesheet" href="../css/estilos.css">
     <script src="https://kit.fontawesome.com/df73df5bdb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/estilos.css">
     <title>Presupuesto</title>
 </head>
 <body>
-    <header class="header">
-    <section class="fondo">
-        <div class="Encabezado">
-            <nav>
-                <ul class="link">
-                         
-                             <li> <a class="active" href ="../index.html">Inicio</a></li>
-                             <li><a class="active" href="../paginas/quienessomos.html">¿Quienes somos?</a></li>
-                             <li>  <a class="active" href="./quehacemos.html">Que hacemos</a></li>
-                             <li><a class="active"  href="../paginas/servicios.html">Productos</a></li>
-                             <li> <a class="active" href="contactos.html">Solicitar Presupuesto</a></li>
-  
-                   </ul>
-          </div>
+    <header >
+        <nav class="navbar navbar-expand-lg navbar-light bg-light " >
+            <div class="container-fluid fondo encabezado link ">
+              <a class="navbar-brand" href="#">
+                <img src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24"> 
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="../paginas/quienessomos.html">Quienes Somos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="../paginas/quehacemos.html">Que Hacemos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="../paginas/servicios.html">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="./contactos.html">Presupuesto</a>
+                  </li>
+                </ul>
+               
+              </div>
+            </div>
+          </nav>
         </header>
      
-     <main>
-        <div class="main_servicios">
-            <h1>Productos</h1>
+     <main><div class="container d-flex bg-primary ">
+        <div class="row-6">
+                <div class="col-6">
+                    <img class="imagenes_productos"  src="../imagenes/producto.jpg" alt="">
+                </div>
+                <div class="col-6">
+                    <img class="imagenes_productos"  src="../imagenes/producto1.jpg" alt="">
+                </div>
+                    <div class="col-6">
+                    <img class="imagenes_productos"  src="../imagenes/producto3.jpg" alt="">
+                  </div>
+                  <div class="co-6">
+                    <img class="imagenes_productos"  src="../imagenes/producto4.jpg" alt="">
+                    </div>
+                  
+                  <div class="col-6">
+                    <img class="imagenes_productos"  src="../imagenes/producto6.jpg" alt="">
+                  </div>
+                  <div class="col-6">
+                    <img class="imagenes_productos"  src="../imagenes/producto7.jpg" alt="">
+                  </div>
+                  <div class="col-6">
+                    <img class="imagenes_productos"  src="../imagenes/producto8.jpg" alt="">
+                  </div>
+                  <div class="col">
+                    <img class="imagenes_productos"  src="../imagenes/producto9kitalarmabasica.jpg" alt="">
+                  </div>
+
         </div>
+      </div>
+        <!--<div class="container border ">
+            <h1>Productos</h1>
         
-                <div class="productos">
-                     <div class="cajas" >  
+        
+                <div class="row border">
+                     <div class="col-md-4 col-sm-6" >  
                     <img class="imagenes_productos"  src="../imagenes/producto.jpg" alt="">
                     </div>
 
-                    <div class="cajas" >
+                    <div class="col-md-4 col-sm-6" >
                         <img class="imagenes_productos" src="../imagenes/producto1.jpg" alt="">
                     </div>
 
-                    <div class="cajas">
+                    <div class="col-md-4 col-sm-6  aling-item-center text-aling-center ">
 
                     <img class="imagenes_productos" src="../imagenes/producto3.jpg" alt="">
                     <p>Sensor Infrarrojo Exterior Alarma</p>
                     </div>
 
-                    <div class="cajas" >
+                    <div class="col-md-4 col-sm-6 " >
                     <img class="imagenes_productos" src="../imagenes/producto4.jpg" alt="">
                     </div>
 
-                    <div class="cajas" >
+                    <div class="col-md-4 col-sm-6 " >
                     <img class="imagenes_productos" src="../imagenes/producto5.jpg.webp" alt="">
                     </div>
 
-                    <div class="cajas" >
+                    <div class="col-md-4 col-sm-6" >
                     <img class="imagenes_productos" src="../imagenes/producto6.jpg" alt="">
                     </div>
-                     <div class="cajas">
+                     <div class="col-md-4 col-sm-6">
                     <img class="imagenes_productos" src="../imagenes/producto7.jpg" alt="">
                     </div>
 
-                    <div class="cajas" >   
+                    <div class="col-md-4 col-sm-6" >   
                         <img class="imagenes_productos" src="../imagenes/producto8.jpg" alt="">
                     </div>
-                    <div class="cajas" >
+                    <div class="col-md-4 col-sm-6">
                     <img class="imagenes_productos" src="../imagenes/productokitbasico.jpg" alt="">
                     </div>
 
-                    <div class="cajas" >
+                    <div class="col-md-4 col-sm-6" >
                     <img class="imagenes_productos" src="../imagenes/producto9kitalarmabasica.jpg" alt="">
-                    
-                    
                     </div>
 
-                   
-
                 </div>
-
+            </div>
+        -->
 
 
 
@@ -87,70 +132,62 @@
         </main>
         <footer>
             <section class="footer"> 
-                
-                   <div class="logo_footer">
-                        
+            
+                <div class="logo_footer">
+                     <img src="../imagenes/proteger.png" alt="">
+                 </div>
+     
+                 <div class="telefono">
+                     <img src="../imagenes/icono.telefono.png" alt="">
+                     <p>+5491133607161</p>
+                 </div>
+                 <div class="email">
+                     <img src="../imagenes/email.png" alt="">
+                     <p>gaston.delduca@hotmail.com</p>
+     
+                 </div>
+     
+                 <div class="horarios">
+                     <img src="../imagenes/reloj-de-pared.png" alt="">
+                     <p>Lunes a Viernes de 9hs a 18hs.</p>
+     
+                 </div>
+                 
+             
+             </section>
         
-                            <img src="../imagenes/proteger.png" alt="">
-                    </div>
-        
-                    <div class="telefono">
-                        <img src="../imagenes/icono.telefono.png" alt="">
-                        <p>+5491133607161</p>
-        
-        
-                    </div>
-                    <div class="email">
-                        <img src="../imagenes/email.png" alt="">
-                        <p>gaston.delduca@hotmail.com</p>
-        
-                    </div>
-        
-                    <div class="horarios">
-                        <img src="../imagenes/reloj-de-pared.png" alt="">
-                        <p>Lunes a Viernes de 9hs a 18hs.</p>
-        
-                    </div>
-                    
-                
-                </section>
-        <div class="mapa">
-           
-            <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.5895187903793!2d-58.62746144904455!3d-34.63981208035415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb8a2f87ca905%3A0x93c0fab702f67422!2sAv.%20Brig.%20Gral.%20Juan%20Manuel%20de%20Rosas%20195%2C%20Castelar%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1666400502785!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-           
-        
-        </div>
         <div class="redes">
                 <div class="copy">
                          <small>@copy: 2022 <b>PIZER</b> - Todos los derechos reservados</small>
                 </div>
         
                 <div class="redes2">
-                    <div class="imagenes">
-                        <a href="https://es-la.facebook.com/" target="_blank">
-                        <i class="fa-brands fa-facebook facebook"></i>
-                    </a>
-                    </div>
-    
-    
-                     <div class="imagenes">
-                        <a href="https://www.instagram.com/" target="_blank">
-                        <i class="fa-brands fa-square-instagram instagram"></i>
-                    </a>
-                    </div>
-    
-                    <div class="imagenes">
-                        <a href="https://twitter.com/?lang=es" target="_blank">
-                            <i class="fa-brands fa-square-twitter twitter"></i>
+                        <div class="imagenes">
+                            <a href="https://es-la.facebook.com/" target="_blank">
+                            <i class="fa-brands fa-facebook facebook"></i>
                         </a>
-                        
-                        
-            
-            
-                    </div>
+                        </div>
+        
+        
+                         <div class="imagenes">
+                            <a href="https://www.instagram.com/" target="_blank">
+                            <i class="fa-brands fa-square-instagram instagram"></i>
+                        </a>
+                        </div>
+        
+                        <div class="imagenes">
+                            <a href="https://twitter.com/?lang=es" target="_blank">
+                                <i class="fa-brands fa-square-twitter twitter"></i>
+                            </a>
+                            
+                            
+                
+                
+                        </div>
                         
                 </div>
         </div>
         </footer>
+        <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

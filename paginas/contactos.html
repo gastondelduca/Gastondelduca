@@ -1,21 +1,113 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="paginas/">
-    <link rel="stylesheet" href="../css/estilos.css">
+
     <script src="https://kit.fontawesome.com/df73df5bdb.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/estilos.css">
     <title>Fomulario</title>
 </head>
-<body>
-    
 
-<header class="header">
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+            <div class="container-fluid fondo encabezado link ">
+                <a class="navbar-brand" href="#">
+                    <img src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav justify-content-around w-100">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="../paginas/quienessomos.html">Quienes Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="../paginas/quehacemos.html">Que Hacemos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="../paginas/servicios.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./contactos.html">Presupuesto</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="container mt-5 mb-5 ">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 m-auto ">
+                    <h1>Completa el formulario para recibir tu cotización</h1>
+                </div>
+
+                <div class="col-sm-12 col-md-6 ">
+                    <form class="row g-3">
+                        <div class="col-md-6 ">
+                            <label for="inputEmail4" class="form-label">Nombre</label>
+                            <input type="email" class="form-control" id="inputEmail4">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputPassword4" class="form-label">Apellido</label>
+                            <input type="password" class="form-control" id="inputPassword4">
+                        </div>
+                        <div class="col-12">
+                            <label for="inputAddress" class="form-label">Telefono</label>
+                            <input type="number" class="form-control" id="inputAddress" placeholder="">
+                        </div>
+                        <div class="col-12">
+                            <label for="inputAddress2" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="inputAddress2" placeholder="ejemplo@">
+                        </div>
+
+                        <div class="col-md-12">
+                            <label for="inputZip" class="form-label">Consulta</label>
+                            <textarea type="textarea" class="form-control" id="inputZip" cols="0" rows="10"
+                                placeholder="">
+                        </textarea>
+                        </div>
+
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </section>
+        <div class="mapa ">
+
+            <iframe class="mapa"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.5895187903793!2d-58.62746144904455!3d-34.63981208035415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb8a2f87ca905%3A0x93c0fab702f67422!2sAv.%20Brig.%20Gral.%20Juan%20Manuel%20de%20Rosas%20195%2C%20Castelar%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1666400502785!5m2!1ses!2sar"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+        </div>
+    </main>
+
+    <!--esto era antes de bostraap
+    
+    <header class="header">
     <section class="fondo">
        
             <div class="Encabezado">
+
              
                 <nav>
                     <ul class="link">
@@ -31,9 +123,9 @@
                            
 
                  
-</header>
+</header>-->
 
-<main class="main_contacto" >
+    <!--<main class="main_contacto" >
     <img src="/imagenes/Camara formularo.jpg" alt="">
     <section class="main_formulario">
         
@@ -63,81 +155,67 @@
 
 
      </form>
+    -->
+
+    <footer>
+        <div class=" container-fluid footer">
+            <div class="row">
 
 
-    
+                <div class="col">
 
-
-</main>
-
-<footer>
-    <section class="footer"> 
-        
-           <div class="logo_footer">
-                
-
-                    <img src="../imagenes/proteger.png" alt="">
+                    <div class="logo_footer">
+                        <img src="../imagenes/proteger.png" alt="">
+                    </div>
+                    <div class="telefono">
+                        <img src="../imagenes/icono.telefono.png" alt="">
+                        <p>+5491133607161</p>
+                    </div>
+                    <div class="email">
+                        <img src="../imagenes/email.png" alt="">
+                        <p>gaston.delduca@hotmail.com</p>
+                    </div>
+                    <div class="horarios">
+                        <img src="../imagenes/reloj-de-pared.png" alt="">
+                        <p>Lunes a Viernes de 9hs a 18hs.</p>
+                    </div>
+                </div>
             </div>
-
-            <div class="telefono">
-                <img src="../imagenes/icono.telefono.png" alt="">
-                <p>+5491133607161</p>
-
-
-            </div>
-            <div class="email">
-                <img src="../imagenes/email.png" alt="">
-                <p>gaston.delduca@hotmail.com</p>
-
-            </div>
-
-            <div class="horarios">
-                <img src="../imagenes/reloj-de-pared.png" alt="">
-                <p>Lunes a Viernes de 9hs a 18hs.</p>
-
-            </div>
-            
-        
-        </section>
-<div class="mapa">
-   
-    <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.5895187903793!2d-58.62746144904455!3d-34.63981208035415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb8a2f87ca905%3A0x93c0fab702f67422!2sAv.%20Brig.%20Gral.%20Juan%20Manuel%20de%20Rosas%20195%2C%20Castelar%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1666400502785!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-   
-
-</div>
-<div class="redes">
-        <div class="copy">
-                 <small>@copy: 2022 <b>PIZER</b> - Todos los derechos reservados</small>
         </div>
 
-        <div class="redes2">
-            <div class="imagenes">
-                <a href="https://es-la.facebook.com/" target="_blank">
-                <i class="fa-brands fa-facebook facebook"></i>
-            </a>
+        <div class="redes">
+            <div class="copy">
+                <small>@copy: 2022 <b>PIZER</b> - Todos los derechos reservados</small>
             </div>
 
+            <div class="redes2">
+                <div class="imagenes">
+                    <a href="https://es-la.facebook.com/" target="_blank">
+                        <i class="fa-brands fa-facebook facebook"></i>
+                    </a>
+                </div>
 
-             <div class="imagenes">
-                <a href="https://www.instagram.com/" target="_blank">
-                <i class="fa-brands fa-square-instagram instagram"></i>
-            </a>
-            </div>
 
-            <div class="imagenes">
-                <a href="https://twitter.com/?lang=es" target="_blank">
-                    <i class="fa-brands fa-square-twitter twitter"></i>
-                </a>
-                
-                
-    
-    
+                <div class="imagenes">
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <i class="fa-brands fa-square-instagram instagram"></i>
+                    </a>
+                </div>
+
+                <div class="imagenes">
+                    <a href="https://twitter.com/?lang=es" target="_blank">
+                        <i class="fa-brands fa-square-twitter twitter"></i>
+                    </a>
+
+
+
+
+                </div>
+
             </div>
-                
         </div>
-</div>
-</footer>
-
+    </footer>
+    <script src="../js/bootstrap.bundle.min.js"></script>
 
 
 </body>
