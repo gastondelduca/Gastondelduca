@@ -8,73 +8,209 @@
     <script src="https://kit.fontawesome.com/df73df5bdb.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Presupuesto</title>
 </head>
-<body>
-    <header >
-        <nav class="navbar navbar-expand-lg navbar-light bg-light " >
-            <div class="container-fluid fondo encabezado link ">
-              <a class="navbar-brand" href="#">
-                <img src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24"> 
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
-              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="../paginas/quienessomos.html">Quienes Somos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="../paginas/quehacemos.html">Que Hacemos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="../paginas/servicios.html">Productos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="./contactos.html">Presupuesto</a>
-                  </li>
-                </ul>
-               
-              </div>
-            </div>
-          </nav>
+<body >
+    <header class=" headerr" >
+      <nav class="navbar navbar-expand-lg navbar-light bg-light " >
+        <div class="container-fluid fondo encabezado link ">
+          <a class="navbar-brand" href="../index.html">
+            <img src="../imagenes/proteger.png" alt="" width="40" height="40"> 
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav justify-content-around w-100">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="../paginas/quienessomos.html">Quienes Somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="../paginas/quehacemos.html">Que Hacemos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="../paginas/servicios.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./contactos.html">Presupuesto</a>
+              </li>
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
         </header>
-     
-     <main><div class="container d-flex bg-primary ">
-        <div class="row-6">
-                <div class="col-6">
-                    <img class="imagenes_productos"  src="../imagenes/producto.jpg" alt="">
+
+
+        <main>
+          <div class="contenedor-boton">
+            <a href="https://wa.me/987654321?text=Quiero%20realizar%20un%20proyecto%20web%20php" target="_blank">
+                <img class="boton" src="../imagenes/whatsap.png" alt="">
+            </a>
+        </div>
+          <section class="container  text-center">
+            <h1 class="titulo_producto">Productos</h1>
+            <div class="row  mt-4 ">
+              <h2>Kit Basicos</h2>
+              <div class="col-md-4 col-sm-12 ">
+                    <div data-aos="fade-up" data-aos-delay="200" class="card " style="width: 18rem;">
+                      <img src="../imagenes/productokitbasico.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <p class="card-text">
+                          <h4>Kit Camaras</h4>
+                          4 cámaras de exterior/interior <br>
+                           Consola DVR 4 canales<br>
+                          Fuente de Alimentación para DVR<br>
+                          Fuente de Alimentación para cámaras<br>
+                          Cable HDMI<br>
+                         Cable VGA a RCA<br>
+                          4 Soportes para pared<br>
+                           4 Pegatinas protectoras<br>
+                          4 cables por 18mts de video y corriente<br>
+                          Mouse<br>
+                        Tornillos<br>
+                          Manual de Usuario<br>
+                          <br></p>
+                      </div>
+                    </div>
+              </div>
+                <div class="col-md-4 col-sm-12">
+                      <div  data-aos="fade-up" data-aos-delay="500" class="card" style="width: 18rem;">
+                        <img src="../imagenes/producto.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">
+                            <h4>Caja Fuerte</h4>
+                            Dimensiones: 310x200x200mm <br>
+                            Espesor aproximado 1,2 mm cuerpo y 2 mm puerta <br>
+                            Cuerpo y puerta de Acero forjado de alta resistencia <br>
+                            Código de apertura programable <br>
+                            Indicador de batería baja <br>
+                            Función de desbloqueo Manual mediante llave <br>
+                            Incluye Manual en español, Llave (2), Tornillos para fijación. Ideal Joyas, billetes y pequeños valores</p>
+                        </div>
+                      </div>
                 </div>
-                <div class="col-6">
-                    <img class="imagenes_productos"  src="../imagenes/producto1.jpg" alt="">
-                </div>
-                    <div class="col-6">
-                    <img class="imagenes_productos"  src="../imagenes/producto3.jpg" alt="">
-                  </div>
-                  <div class="co-6">
-                    <img class="imagenes_productos"  src="../imagenes/producto4.jpg" alt="">
+              <div class="col-md-4 col-sm-12 ">
+                    <div data-aos="fade-up" data-aos-delay="800" class="card" style="width: 18rem;">
+                      <img src="../imagenes/producto9kitalarmabasica.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <p class="card-text">
+                          <h3>Kit Alarma</h3>
+                          Panel Alarma Inalambrica - Xanaes 610 - CEM <br>
+                          1 Teclado<br>
+                          1 Sensor Infrarrojo Pasivo Inmunidad animal hasta 25 Kgs<br>
+                          1 Sirena de interior Piezoeléctrica 108dB<br>
+                          1 Sirena Exterior Piezoeléctrica con Flash<br>
+                          1 Receptor de control remoto Xanaes<br>
+                          1 Control remoto de 4 canales<br>
+                          1 Batería Gel de Respaldo 12v 7A<br>
+                        </p>
+                      </div>
+                    </div>
+              </div>   
+            </div>
+            <section class="equipo_medio">
+              
+              <img src="../imagenes/celular.jpg" alt="">
+            </section>
+
+            </section>
+            <section class="container-fluid mb-3 mt-4">
+              <h2 class="titulo_producto">Potencia tu sistema Incorporando mas equipamiento</h2>
+              <div class="row justify-content-center equipo mt-5 ">
+                           <div class="col-md-3 col-sm-12 text-center">
+                              
+                              <img src="../imagenes/equipo.jpg" alt="">
+                              <div class="parrafo_producto">
+                                <h4>PULSADORES
+                                  INALÁMBRICOS</h4>
+                                <p >Controlá tu sistema a distancia, y emití señales de pánico.</p>
+                              </div>
+                            </div>
+                            <div class="col-md-3 col-sm-12 text-center ">
+                              <img src="../imagenes/equip2.jpg" alt="">
+                              <div class="parrafo_producto">
+                                <h4>SENSORES
+                                  INTERIORES Y SENSORES
+                                  EXTERIORES</h4>
+                                <p >Infrarrojos de movimiento,
+                                  magnéticos y barreras.</p>
+                              </div>
+                            </div>
+                            <div class="col-md-3 col-sm-12 text-center">
+                              <img src="../imagenes/equip4.jpg" alt="">
+                              <div class="parrafo_producto">
+                                <h4>SENSORES
+                                  PET FRIENDLY</h4>
+                                <p >Para que puedas estar protegido con tus mascotas.</p>
+                              </div>
+                            </div>
+                            <div class="col-md-3 col-sm-12 text-center">
+                              <img src="../imagenes/equipo5.jpg" alt="">
+                              <div class="parrafo_producto">
+                                <h4>CAMARAS INTERIORES Y EXTERIORES</h4>
+                                <p >Para que puedas vigilar tu casa donde estes.</p>
+                              </div>
+                            </div>
+                          
                     </div>
                   
-                  <div class="col-6">
-                    <img class="imagenes_productos"  src="../imagenes/producto6.jpg" alt="">
-                  </div>
-                  <div class="col-6">
-                    <img class="imagenes_productos"  src="../imagenes/producto7.jpg" alt="">
-                  </div>
-                  <div class="col-6">
-                    <img class="imagenes_productos"  src="../imagenes/producto8.jpg" alt="">
-                  </div>
-                  <div class="col">
-                    <img class="imagenes_productos"  src="../imagenes/producto9kitalarmabasica.jpg" alt="">
-                  </div>
+            </section>
 
-        </div>
-      </div>
+        </main>
+     <!--
+ <main class="main_productos">
+      <section id="galeria" class="container mt-0">
+          <div class="text-center pt-5">
+            <h1>Productos</h1>
+            <p>sadsañlkdñslakdñlsakdñlsakdñskladsa</p>
+
+          </div>
+
+          <div class="row">
+              <div class="col-md-4">
+                <img src="../imagenes/producto.jpg" alt="">
+                
+                <p>sakdjsalkdñslakdñlsakdsakdsadklsajdlksd</p>
+              
+              </div>
+              <div class="col-md-4">
+                <img src="../imagenes/producto1.jpg" alt="">
+              </div>
+              <div class="col-md-4">
+                <img src="../imagenes/producto3.jpg" alt="">
+              </div>
+              <div class="col-md-4">
+                <img src="../imagenes/producto4.jpg" alt="">
+              </div>
+              <div class="col-md-4">
+                <img src="../imagenes/producto6.jpg" alt="">
+              </div>
+              <div class="col-md-4">
+                <img src="../imagenes/producto7.jpg" alt="">
+              </div>
+              <div class="col-md-4">
+                <img src="../imagenes/producto8.jpg" alt="">
+              </div>
+              <div class="col-md-4">
+                <img src="../imagenes/producto9kitalarmabasica.jpg" alt="">
+              </div>
+              <div class="col-md-4">
+                <img src="../imagenes/productokitbasico.jpg" alt="">
+              </div>
+            
+              
+          </div>
+      </section>
+
+
+     -->
+    
         <!--<div class="container border ">
             <h1>Productos</h1>
         
@@ -131,63 +267,63 @@
 
         </main>
         <footer>
-            <section class="footer"> 
-            
-                <div class="logo_footer">
-                     <img src="../imagenes/proteger.png" alt="">
-                 </div>
-     
-                 <div class="telefono">
-                     <img src="../imagenes/icono.telefono.png" alt="">
-                     <p>+5491133607161</p>
-                 </div>
-                 <div class="email">
-                     <img src="../imagenes/email.png" alt="">
-                     <p>gaston.delduca@hotmail.com</p>
-     
-                 </div>
-     
-                 <div class="horarios">
-                     <img src="../imagenes/reloj-de-pared.png" alt="">
-                     <p>Lunes a Viernes de 9hs a 18hs.</p>
-     
-                 </div>
-                 
-             
-             </section>
-        
-        <div class="redes">
-                <div class="copy">
-                         <small>@copy: 2022 <b>PIZER</b> - Todos los derechos reservados</small>
+          <div class="container-fluid footer1 ">
+            <div class="row justify-content-around  ">
+           
+                <div class="col-md-3 col-sm-12 mb-3 logo_footer ">
+                    <img src="../imagenes/proteger.png" alt="">
                 </div>
-        
-                <div class="redes2">
-                        <div class="imagenes">
-                            <a href="https://es-la.facebook.com/" target="_blank">
-                            <i class="fa-brands fa-facebook facebook"></i>
-                        </a>
-                        </div>
-        
-        
-                         <div class="imagenes">
-                            <a href="https://www.instagram.com/" target="_blank">
-                            <i class="fa-brands fa-square-instagram instagram"></i>
-                        </a>
-                        </div>
-        
-                        <div class="imagenes">
-                            <a href="https://twitter.com/?lang=es" target="_blank">
-                                <i class="fa-brands fa-square-twitter twitter"></i>
-                            </a>
-                            
-                            
-                
-                
-                        </div>
-                        
+    
+                <div class="col-md-3 col-sm-12 telefono">
+                    <img src="../imagenes/icono.telefono.png" alt="">
+                    <p>+5491133607161</p>
                 </div>
+                <div class="col-md-3  col-sm-12 email">
+                    <img src="../imagenes/email.png" alt="">
+                    <p>gaston.delduca@hotmail.com</p>
+    
+                </div>
+    
+                <div class="col-md-3  col-sm-12 horarios">
+                    <img src="../imagenes/reloj-de-pared.png" alt="">
+                    <p>Lunes a Viernes de 9hs a 18hs.</p>
+    
+                </div>
+             </div>
+        </div>
+
+        <div class="container mt-4  ">
+            <div class="row justify-content-around">
+                <div class= "col-6 ">
+                    <small>@copy: 2022 <b>PIZER</b> - Todos los derechos reservados</small>
+                </div>
+                
+                    <div class="col-2 imagenes">
+                        <a href="https://es-la.facebook.com/" target="_blank">
+                        <i class="fa-brands fa-facebook facebook"></i>
+                    </a>
+                    </div>
+    
+    
+                     <div class="col-2 imagenes ">
+                        <a href="https://www.instagram.com/" target="_blank">
+                        <i class="fa-brands fa-square-instagram instagram"></i>
+                    </a>
+                    </div>
+    
+                    <div class="col-2 imagenes">
+                        <a href="https://twitter.com/?lang=es" target="_blank">
+                            <i class="fa-brands fa-square-twitter twitter"></i>
+                        </a>
+                    </div>
+
+            </div>
         </div>
         </footer>
-        <script src="./js/bootstrap.bundle.min.js"></script>
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
