@@ -5,30 +5,116 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="paginas/">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/estilos.css">
     <script src="https://kit.fontawesome.com/df73df5bdb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Que hacemos</title>
 </head>
 <body>
 
-    <header class="header">
-    <section class="fondo">
-        <div class="Encabezado">
-            <nav>
-                <ul class="link">
-                         
-                             <li> <a class="active" href ="../index.html">Inicio</a></li>
-                             <li><a class="active" href="../paginas/quienessomos.html">¿Quienes somos?</a></li>
-                             <li>  <a class="active" href="quehacemos.html">Que hacemos</a></li>
-                             <li><a class="active"  href="../paginas/servicios.html">Productos</a></li>
-                             <li> <a class="active" href="./contactos.html">Solicitar Presupuesto</a></li>
-  
-                   </ul>
-              <nav>
+    <header>
+            <nav class="navbar navbar-expand-lg navbar-light fondo " >
+                <div class="container-fluid fondo encabezado link ">
+                  <a class="navbar-brand" href="../index.html">
+                    <img src="../imagenes/proteger.png" alt="" width="40" height="40"> 
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+                  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav justify-content-around w-100">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="../paginas/quienessomos.html">Quienes Somos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="../paginas/quehacemos.html">Que Hacemos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="../paginas/servicios.html">Productos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="./contactos.html">Presupuesto</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              
+              </nav>
   
     </header>
-    <main>
-         <div class="banner_quehacemos">
+    <main> 
+        <div class="contenedor-boton">
+        <a href="https://wa.me/987654321?text=Quiero%20realizar%20un%20presupuesto" target="_blank">
+            <img class="boton" src="../imagenes/whatsap.png" alt="">
+        </a>
+    </div>
+    
+            <div class="col text-center mb-5 titulo_producto ">
+                <h1>Seguridad Electrónica <br> Venta, instalación y reparación de sistemas <br> de seguridad, cámaras, alarmas.</h1>
+         
+    </div>
+    <div class="container ">
+        <div class="row mb-4  ">
+                <div class="col-md-6 col-sm-12 ">
+                <img data-aos="fade-up-right"  data-aos-delay="400" data-aos-easing="ease-in-out"   src="../imagenes/kit alarma.jpg" alt="">
+                    </div>
+                <div class="col-md-6 col-sm-12 m-auto parrafo_producto ">
+                <p data-aos="fade-up-left"  data-aos-delay="400" data-aos-easing="ease-in-out">MÁS SIMPLES SIN CABLES SIN LIMITACIONES!!
+
+
+                    <br> • Comience instalando el kit básico y agregue sensores cuando Ud. lo decida.
+                     
+                    <br> • Un sistema de alarma inteligente y sin cables que mantendrá tu familia segura.
+                     
+                    <br> • Active y desactive su panel Marshall fácilmente desde su celular, o simplemente hágalo desde su control remoto o teclado inalámbrico.
+                     
+                    <br> • App sumamente intuitiva para que rápidamente te sientas familiarizado con tu sistema de seguridad.</p></p>
+                </div>
+        </div>
+        <div class="row  mb-4">
+            <div class="col-md-6 col-sm-12 order-md-1 order-sm-2 m-auto parrafo_producto">
+                <p data-aos="fade-up-right"  data-aos-delay="400" data-aos-easing="ease-in-out" >
+                    PREVENCIÓN & SEGURIDAD PARA TU HOGAR!!
+    
+                     
+                    <br> • Comience instalando el kit básico y agregue cámaras cuando Ud. lo decida.
+                    
+                   <br> • Observe sus cámaras en tiempo real desde su celular.
+                    
+                  <br>  • Supervisión local y/o remota de imágenes y audio.
+                </p>
+                </div>
+                <div class="col-md-6 col-sm-12 order-md-2 order-sm-1 ">
+                    <img data-aos="fade-up-left"  data-aos-delay="400" data-aos-easing="ease-in-out" src="../imagenes/servicios.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="row mt-5 mb-4">
+                <div class="col-md-6 col-sm-12">
+                    <img data-aos="fade-up-right"  data-aos-delay="400" data-aos-easing="ease-in-out"  src="../imagenes/caja_fuerte.jpg" alt="">
+                </div>
+                <div class="col-md-6 col-sm-12 m-auto parrafo_producto">
+                    <p data-aos="fade-up-left"  data-aos-delay="400" data-aos-easing="ease-in-out" >
+                        Protegemos tus objetos de valor
+                        La caja de seguridad posee detectores que registran la apertura y cierre de la 
+                        puerta y sensores antisísmicos que detectan posibles intentos de apertura mediante 
+                        taladros, golpes u otras maniobras, para protegerla de intentos 
+                        de sabotaje. Aumentá la seguridad de tus documentos, joyas y otros objetos de valor en tu hogar.</p>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+<!--
+<div class="banner_quehacemos">
          <h2>Seguridad Electrónica: Venta, instalación y reparación de sistemas de seguridad, cámaras, alarmas, cercos eléctricos.</h2>
         </div>
         <section>
@@ -79,66 +165,69 @@
             </div>
 
         </section>
-    
-    </main>
+
+-->
+
 
     <footer>
-        <section class="footer"> 
-            
-            <div class="logo_footer">
-                 <img src="../imagenes/proteger.png" alt="">
-             </div>
- 
-             <div class="telefono">
-                 <img src="../imagenes/icono.telefono.png" alt="">
-                 <p>+5491133607161</p>
-             </div>
-             <div class="email">
-                 <img src="../imagenes/email.png" alt="">
-                 <p>gaston.delduca@hotmail.com</p>
- 
-             </div>
- 
-             <div class="horarios">
-                 <img src="../imagenes/reloj-de-pared.png" alt="">
-                 <p>Lunes a Viernes de 9hs a 18hs.</p>
- 
-             </div>
-             
-         
-         </section>
+        <div class="container-fluid footer1 ">
+            <div class="row justify-content-around  ">
+           
+                <div class="col-md-3 col-sm-12 mb-3 logo_footer ">
+                    <img src="../imagenes/proteger.png" alt="">
+                </div>
     
-    <div class="redes">
-            <div class="copy">
-                     <small>@copy: 2022 <b>PIZER</b> - Todos los derechos reservados</small>
-            </div>
+                <div class="col-md-3 col-sm-12 telefono">
+                    <img src="../imagenes/icono.telefono.png" alt="">
+                    <p>+5491133607161</p>
+                </div>
+                <div class="col-md-3  col-sm-12 email">
+                    <img src="../imagenes/email.png" alt="">
+                    <p>gaston.delduca@hotmail.com</p>
     
-            <div class="redes2">
-                    <div class="imagenes">
+                </div>
+    
+                <div class="col-md-3  col-sm-12 horarios">
+                    <img src="../imagenes/reloj-de-pared.png" alt="">
+                    <p>Lunes a Viernes de 9hs a 18hs.</p>
+    
+                </div>
+             </div>
+        </div>
+
+        <div class="container mt-4  ">
+            <div class="row justify-content-around">
+                <div class= "col-6 ">
+                    <small>@copy: 2022 <b>PIZER</b> - Todos los derechos reservados</small>
+                </div>
+                
+                    <div class="col-2 imagenes">
                         <a href="https://es-la.facebook.com/" target="_blank">
                         <i class="fa-brands fa-facebook facebook"></i>
                     </a>
                     </div>
     
     
-                     <div class="imagenes">
+                     <div class="col-2 imagenes ">
                         <a href="https://www.instagram.com/" target="_blank">
                         <i class="fa-brands fa-square-instagram instagram"></i>
                     </a>
                     </div>
     
-                    <div class="imagenes">
+                    <div class="col-2 imagenes">
                         <a href="https://twitter.com/?lang=es" target="_blank">
                             <i class="fa-brands fa-square-twitter twitter"></i>
                         </a>
-                        
-                        
-            
-            
                     </div>
-                    
+
             </div>
-    </div>
+        </div>
+
     </footer>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        </script>
 </body>
 </html>
